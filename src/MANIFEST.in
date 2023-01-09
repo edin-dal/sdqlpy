@@ -1,0 +1,3 @@
+include sdqlpy/compiler.sh
+recursive-include sdqlpy/include *
+recursive-include sdqlpy/lib *
