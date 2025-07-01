@@ -72,3 +72,53 @@ python3 test_all.py
 ### Notes:
 - The project is still in the development phase and might have portability issues. Please kindly send us the issues you face while using this code.
 - TBB and <a href="https://github.com/greg7mdp/parallel-hashmap">phmap</a> library are heavily used in the auto-generated C++ codes.
+
+## Citing sdqlpy
+
+To cite sdqlpy, use one of the following BibTex:
+
+```
+@inproceedings{DBLP:conf/cc/ShahrokhiS23,
+  author       = {Hesam Shahrokhi and
+                  Amir Shaikhha},
+  editor       = {Clark Verbrugge and
+                  Ondrej Lhot{\'{a}}k and
+                  Xipeng Shen},
+  title        = {Building a Compiled Query Engine in Python},
+  booktitle    = {Proceedings of the 32nd {ACM} {SIGPLAN} International Conference on
+                  Compiler Construction, {CC} 2023, Montr{\'{e}}al, QC, Canada,
+                  February 25-26, 2023},
+  pages        = {180--190},
+  publisher    = {{ACM}},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3578360.3580264},
+  doi          = {10.1145/3578360.3580264},
+  timestamp    = {Sun, 19 Jan 2025 13:28:01 +0100},
+  biburl       = {https://dblp.org/rec/conf/cc/ShahrokhiS23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
+```
+@inproceedings{DBLP:conf/sigmod/ShahrokhiGYS23,
+  author       = {Hesam Shahrokhi and
+                  Callum Groeger and
+                  Yizhuo Yang and
+                  Amir Shaikhha},
+  editor       = {Sudipto Das and
+                  Ippokratis Pandis and
+                  K. Sel{\c{c}}uk Candan and
+                  Sihem Amer{-}Yahia},
+  title        = {Efficient Query Processing in Python Using Compilation},
+  booktitle    = {Companion of the 2023 International Conference on Management of Data,
+                  {SIGMOD/PODS} 2023, Seattle, WA, USA, June 18-23, 2023},
+  pages        = {199--202},
+  publisher    = {{ACM}},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3555041.3589735},
+  doi          = {10.1145/3555041.3589735},
+  timestamp    = {Sun, 19 Jan 2025 13:27:26 +0100},
+  biburl       = {https://dblp.org/rec/conf/sigmod/ShahrokhiGYS23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
